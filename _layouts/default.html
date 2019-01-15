@@ -1,0 +1,40 @@
+---
+pages:
+- name: home
+  id: index
+- name: invited speakers
+  id: speakers
+- name: calls
+  id: calls
+- name: committees
+  id: committees
+---
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>LearnAut 2019 {% if page.title != null %}— {{ page.title }}{% endif %}</title>
+
+        <link rel="stylesheet" href="style/main.css" />
+        {%- if page.style %}
+        <link rel="stylesheet" href="style/{{ page.id }}.css" />
+        {%- endif %}
+
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">LearnAut 2019</a></h1>
+        </header>
+        <nav>
+        {%- for link in layout.pages %}
+            <a{% if page.id == link.id %} class="active"{% endif %} href="{{ link.id }}.html">{{ link.name | capitalize }}</a>
+        {%- endfor %}
+        </nav>
+        <section id="content">
+{{ content }}
+        </section>
+        <footer>
+        Photo "Vancouver Skyline" by domo k, CC-BY 2.0 (<a href="https://flic.kr/p/adFSV8">Flickr</a>). Some rights reserved.
+        </footer>
+    </body>
+</html>

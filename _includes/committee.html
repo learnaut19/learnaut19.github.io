@@ -1,0 +1,5 @@
+<ul>
+    {% for member in include.committee %}
+    <li><a href="{{ member.website }}">{{ member.name }}</a> ({{ member.affiliation }})</li>
+    {% endfor %}
+</ul>

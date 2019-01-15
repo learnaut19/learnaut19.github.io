@@ -1,0 +1,13 @@
+---
+layout: default
+id: speakers
+style: true
+---
+{% for speaker in site.data.speakers %}
+<div class="speaker">
+    <img class="photo" src="images/{{ speaker.photo }}" />
+    <h2>{{ speaker.name }}</h2>
+    <span class="affiliation">{{ speaker.affiliation }}</span>
+    <p>{{ speaker.bio }}</p>
+</div>
+{% endfor %}

@@ -1,0 +1,26 @@
+#specifics {
+    display: table-row;
+}
+
+#specifics > div {
+    display: table-cell;
+}
+
+#specifics > div:first-child {
+    padding-right: 20px;
+}
+
+#specifics > div:last-child {
+    padding-left: 20px;
+    width: 38%;
+}
+
+#dates > ul,
+#topics > ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+#dates > h3 {
+    margin-top: 0;
+}
