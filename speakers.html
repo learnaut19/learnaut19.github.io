@@ -7,7 +7,7 @@ style: true
 <div class="speaker">
     {% if speaker.photo %}<img class="photo" src="images/{{ speaker.photo }}" />{% endif %}
     <h2>{{ speaker.name }}</h2>
-    <span class="affiliation">{{ speaker.affiliation }}</span>
+    <span class="affiliation">{{ speaker.affiliation }}</span> (<a href="{{ speaker.website }}">website</a>)
     <p>{{ speaker.bio }}</p>
 </div>
 {% endfor %}
