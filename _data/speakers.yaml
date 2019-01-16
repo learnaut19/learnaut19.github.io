@@ -2,7 +2,15 @@
   affiliation: McGill University
   photo: prakash.jpg
   bio: >
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vestibulum ante id diam molestie, ut consectetur sapien sagittis. Suspendisse vitae sem consectetur, efficitur nunc in, rutrum eros. In volutpat malesuada varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam a ante mauris. Fusce sollicitudin quam sed tortor rutrum, ornare sollicitudin turpis vehicula. Sed mauris mi, sollicitudin sed nulla sit amet, dapibus semper tortor. Curabitur vitae ante eu metus hendrerit tempus non eu odio. Mauris enim lorem, malesuada sed nisl sed, fringilla ultricies turpis.
+    Prakash Panangaden attended the Indian Institute of Technology in Kanpur India where he obtained an MSc in Physics.
+    He received an MS in Physics from the University of Chicago and then a PhD in Physics from the University of Wisconsin-Milwaukee on the topic of quantum field theory in curved spacetimes.
+    He switched to computer science in 1982 obtaining a MS in Computer Science from the University of Utah.
+    He was an assistant professor at Cornell University where he worked on programming language semantics, type therory and concurrency and then an associate professor and professor at McGill University at Montreal Canada.
+    He has spent sabbatical leaves at Cambridge University, Aarhus University and Oxford University.
+    His research interests are primarily probabilistic process theory, machine learning, programming languages and quantum information theory.
+    He has been an invited speaker at several conferences including ETAPS, ICALP, MFPS and LICS.
+    He is the founding chair of the ACM special interest group SIGLOG.
+    He is a Fellow of the Royal Society of Canada.
 - name: Lise Getoor
   affiliation: UC Santa Cruz
   photo: lise.jpg
