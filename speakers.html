@@ -5,7 +5,7 @@ style: true
 ---
 {% for speaker in site.data.speakers %}
 <div class="speaker">
-    <img class="photo" src="images/{{ speaker.photo }}" />
+    {% if speaker.photo %}<img class="photo" src="images/{{ speaker.photo }}" />{% endif %}
     <h2>{{ speaker.name }}</h2>
     <span class="affiliation">{{ speaker.affiliation }}</span>
     <p>{{ speaker.bio }}</p>
