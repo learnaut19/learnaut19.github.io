@@ -1,3 +1,14 @@
+- name: Lise Getoor
+  affiliation: UC Santa Cruz
+  photo: lise.jpg
+  website: https://getoor.soe.ucsc.edu/home
+  bio: >
+      Lise Getoor is a professor in the Computer Science Department and director of the Data, Discovery and Decisions Data Science Research Center at the University of California, Santa Cruz.
+      Her research areas include machine learning, data integration and reasoning under uncertainty, with an emphasis on graph and network data.
+      She has over 200 publications and extensive experience with machine learning and probabilistic modeling methods for graph and network data.
+      She is a Fellow of the Association for Artificial Intelligence, has served as an elected board member of the International Machine Learning Society, the board of the Computing Research Association (CRA), and was co-chair for ICML 2011.
+      She is the recipient of an NSF Career Award and twelve best paper and best student paper awards.
+      She received her PhD from Stanford University in 2001, her MS from UC Berkeley, and her BS from UC Santa Barbara, and was a professor in the Computer Science Department at the University of Maryland, College Park from 2001-2013.
 - name: Prakash Panangaden
   affiliation: McGill University
   photo: prakash.jpg
@@ -12,8 +23,3 @@
     He has been an invited speaker at several conferences including ETAPS, ICALP, MFPS and LICS.
     He is the founding chair of the ACM special interest group SIGLOG.
     He is a Fellow of the Royal Society of Canada.
-- name: Lise Getoor
-  affiliation: UC Santa Cruz
-  website: https://getoor.soe.ucsc.edu/home
-  bio: >
-      <em>Bio forthcoming</em>
