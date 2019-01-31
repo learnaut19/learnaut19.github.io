@@ -1,5 +1,5 @@
 <ul>
     {% for member in include.committee %}
-    <li><a href="{{ member.website }}">{{ member.name }}</a> ({{ member.affiliation }})</li>
+    <li> {% if member.website %} <a href="{{ member.website }}">{{ member.name }}</a> {% else %} {{ member.name }} {% endif %} ({{ member.affiliation }})</li>
     {% endfor %}
 </ul>

@@ -15,9 +15,9 @@ pages:
         <title>LearnAut 2019 {% if page.title != null %}— {{ page.title }}{% endif %}</title>
 
         <link rel="stylesheet" href="style/main.css" />
-        {%- if page.style %}
+        {% if page.style %}
         <link rel="stylesheet" href="style/{{ page.id }}.css" />
-        {%- endif %}
+        {% endif %}
 
         <meta charset="utf-8" />
     </head>
@@ -26,9 +26,9 @@ pages:
             <h1><a href="index.html">LearnAut 2019</a></h1>
         </header>
         <nav>
-        {%- for link in layout.pages %}
+        {% for link in layout.pages %}
             <a{% if page.id == link.id %} class="active"{% endif %} href="{{ link.id }}.html">{{ link.name | capitalize }}</a>
-        {%- endfor %}
+        {% endfor %}
         </nav>
         <section id="content">
 {{ content }}
