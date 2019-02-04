@@ -1,29 +1,41 @@
-- name : Dana Angluin 
+- name : Dana Angluin
   affiliation : Yale University
 - name : Borja Balle
   affiliation : Amazon Research Cambridge
-- name : Leonor Becerra-Bonache 
+  website: https://borjaballe.github.io/
+- name : Leonor Becerra-Bonache
   affiliation : Université de Saint-Etienne
+  website: https://perso.univ-st-etienne.fr/bele8436/
 - name : Alexander Clark
   affiliation : King’s College London
 - name : François Denis
   affiliation : Aix-Marseille Université
+  website: http://pageperso.lif.univ-mrs.fr/~francois.denis/
 - name : Kousha Etessami
   affiliation : University of Edinburgh
+  website: http://homepages.inf.ed.ac.uk/kousha/
 - name: Dana Fisman
   affiliation : University of Pennsylvania
-- name : Matthias Gallé 
+  website: https://www.cs.bgu.ac.il/~dana/
+- name : Matthias Gallé
   affiliation : Naver Labs Europe
+  website: http://www.europe.naverlabs.com/NAVER-LABS-Europe/People/Matthias-Galle
 - name : Colin de la Higuera
   affiliation : Nantes University
+  website: http://pagesperso.lina.univ-nantes.fr/~cdlh/
 - name : Falk Howar
   affiliation : TU Clausthal
+  website: http://www.falkhowar.de/
 - name : Makoto Kanazawa
   affiliation : Hosei University
+  website: https://makotokanazawa.ws.hosei.ac.jp/
 - name : Ariadna Quattoni
   affiliation : Naver Labs Europe
+  website: http://www.lsi.upc.edu/~aquattoni/
 - name : Alexandra Silva
   affiliation : University College of London
+  website: http://www.alexandrasilva.org/
 - name : Frits Vaandrager
   affiliation : Radboud University
+  website: http://www.cs.ru.nl/~fvaan/
 
