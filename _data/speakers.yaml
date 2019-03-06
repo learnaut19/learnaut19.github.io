@@ -1,3 +1,13 @@
+- name: Dana Fisman
+  affiliation: Ben-Gurion University
+  website: https://www.cs.bgu.ac.il/~dana/
+  photo: dana.jpg
+  bio: >
+    Dana Fisman is a faculty member in the Computer Science Department at Ben-Gurion University.
+    Before that she was a research scientist at the University of Pennsylvania, the Associate Director of the NSF expedition ExCAPE about system synthesis, and a visiting fellow at Yale University.
+    She did her PhD in Weizmann Institute of Science, and worked many years in the industry in IBM Haifa Research Labs, and in Synopsys Inc.
+    Dana’s research interests are in the area of formal methods in system design, automata and logic.
+    She is mostly known for her work on PSL, the IEEE standard for property specification language, on which she received numerous awards from IEEE, IBM and Synopsys.
 - name: Lise Getoor
   affiliation: UC Santa Cruz
   photo: lise.jpg
@@ -23,11 +33,6 @@
     He has been an invited speaker at several conferences including ETAPS, ICALP, MFPS and LICS.
     He is the founding chair of the ACM special interest group SIGLOG.
     He is a Fellow of the Royal Society of Canada.
-- name: Dana Fisman
-  affiliation: Ben-Gurion University
-  website: https://www.cs.bgu.ac.il/~dana/
-  bio: >
-    Bio forthcoming.
 - name: Nils Jansen
   affiliation: Radboud University
   website: http://www.cs.ru.nl/personal/nilsjansen/
