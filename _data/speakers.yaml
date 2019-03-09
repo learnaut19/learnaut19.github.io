@@ -35,6 +35,7 @@
     He is a Fellow of the Royal Society of Canada.
 - name: Nils Jansen
   affiliation: Radboud University
+  photo: nils.jpg
   website: http://www.cs.ru.nl/personal/nilsjansen/
   bio: >
-    Bio forthcoming.
+    Nils Jansen is an assistant professor with the Institute for Computing and Information Science (iCIS) at the Radboud University, Nijmegen, The Netherlands. He received his Ph.D. in computer science with honors from RWTH Aachen University, Germany in 2015. Prior to Radboud University, he was a postdoctoral researcher and research associate at the University of Texas at Austin, USA. His current research focuses on formal reasoning about safety and explainability in machine learning and robotics. At the heart is the development of concepts inspired from formal methods to reason about uncertainty and partial observability. To advance the synergy between the fields of AI and formal verification, he organized several events at top class scientific venues, for instance a Dagstuhl seminar on the topic ‘Machine Learning and Model Checking join Forces’.
