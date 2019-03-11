@@ -19,6 +19,17 @@
       She is a Fellow of the Association for Artificial Intelligence, has served as an elected board member of the International Machine Learning Society, the board of the Computing Research Association (CRA), and was co-chair for ICML 2011.
       She is the recipient of an NSF Career Award and twelve best paper and best student paper awards.
       She received her PhD from Stanford University in 2001, her MS from UC Berkeley, and her BS from UC Santa Barbara, and was a professor in the Computer Science Department at the University of Maryland, College Park from 2001-2013.
+- name: Nils Jansen
+  affiliation: Radboud University
+  photo: nils.jpg
+  website: https://www.cs.ru.nl/personal/nilsjansen/
+  bio: >
+    Nils Jansen is an assistant professor with the Institute for Computing and Information Science (iCIS) at the Radboud University, Nijmegen, The Netherlands.
+    He received his Ph.D. in computer science with honors from RWTH Aachen University, Germany in 2015.
+    Prior to Radboud University, he was a postdoctoral researcher and research associate at the University of Texas at Austin, USA.
+    His current research focuses on formal reasoning about safety and explainability in machine learning and robotics.
+    At the heart is the development of concepts inspired from formal methods to reason about uncertainty and partial observability.
+    To advance the synergy between the fields of AI and formal verification, he organized several events at top class scientific venues, for instance a Dagstuhl seminar on the topic ‘Machine Learning and Model Checking join Forces’.
 - name: Prakash Panangaden
   affiliation: McGill University
   photo: prakash.jpg
@@ -33,14 +44,3 @@
     He has been an invited speaker at several conferences including ETAPS, ICALP, MFPS and LICS.
     He is the founding chair of the ACM special interest group SIGLOG.
     He is a Fellow of the Royal Society of Canada.
-- name: Nils Jansen
-  affiliation: Radboud University
-  photo: nils.jpg
-  website: https://www.cs.ru.nl/personal/nilsjansen/
-  bio: >
-    Nils Jansen is an assistant professor with the Institute for Computing and Information Science (iCIS) at the Radboud University, Nijmegen, The Netherlands.
-    He received his Ph.D. in computer science with honors from RWTH Aachen University, Germany in 2015.
-    Prior to Radboud University, he was a postdoctoral researcher and research associate at the University of Texas at Austin, USA.
-    His current research focuses on formal reasoning about safety and explainability in machine learning and robotics.
-    At the heart is the development of concepts inspired from formal methods to reason about uncertainty and partial observability.
-    To advance the synergy between the fields of AI and formal verification, he organized several events at top class scientific venues, for instance a Dagstuhl seminar on the topic ‘Machine Learning and Model Checking join Forces’.
