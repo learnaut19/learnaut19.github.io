@@ -90,3 +90,12 @@ footer {
     margin-top: 20px;
     padding-top: 20px;
 }
+
+.new {
+    color: red;
+    font-weight: bold;
+}
+
+.old {
+    text-decoration: line-through;
+}
