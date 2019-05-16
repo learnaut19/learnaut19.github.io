@@ -16,7 +16,7 @@ td {
     text-align: right;
 }
 
-.title.organisation, .title.break {
+.organisation .title, .break .title {
     font-style: italic;
 }
 
@@ -29,12 +29,21 @@ a.title {
     color: inherit;
 }
 
-a[href].title {
-    cursor: pointer;
-}
-
 a.title:hover {
     text-decoration: none;
+}
+
+a[href].title {
+    cursor: pointer;
+    color: blue;
+}
+
+a[href].title:hover {
+    text-decoration: underline;
+}
+
+.speaker {
+    padding: 5px;
 }
 
 .abstract {
