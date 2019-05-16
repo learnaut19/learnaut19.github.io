@@ -16,3 +16,24 @@ h2 {
 .speaker {
     margin-top: 30px;
 }
+
+.speaker:target {
+    border: 1px dotted black;
+    border-radius: 5px;
+    padding: 10px;
+    animation: bounce 1s;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+	}
+}

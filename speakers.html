@@ -3,8 +3,10 @@ layout: default
 id: speakers
 style: true
 ---
-{% for speaker in site.data.speakers %}
-<div class="speaker">
+{%- for item in site.data.speakers %}
+{%- assign key = item[0] -%}
+{%- assign speaker = item[1] %}
+<div class="speaker" id="{{ key }}">
     {% if speaker.photo %}<img class="photo" src="images/{{ speaker.photo }}" />{% endif %}
     <h2>{{ speaker.name }}</h2>
     <span class="affiliation">{{ speaker.affiliation }}</span> (<a href="{{ speaker.website }}">website</a>)

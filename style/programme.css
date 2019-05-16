@@ -1,0 +1,49 @@
+table, td {
+    border: 1px dotted black;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 1em;
+}
+
+td {
+    padding: 10px;
+}
+
+.time {
+    text-align: right;
+}
+
+.title.organisation, .title.break {
+    font-style: italic;
+}
+
+.type {
+    font-weight: bold;
+}
+
+a.title {
+    cursor: inherit;
+    color: inherit;
+}
+
+a[href].title {
+    cursor: pointer;
+}
+
+a.title:hover {
+    text-decoration: none;
+}
+
+.abstract {
+    display: none;
+    padding: 5px;
+    font-style: italic;
+    max-width: 800px;
+}
+
+.abstract:target {
+    display: inherit;
+}

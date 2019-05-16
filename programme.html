@@ -1,0 +1,30 @@
+---
+layout: default
+id: programme
+style: true
+---
+<table>
+    <tbody>
+        {% for item in site.data.programme %}
+        <tr>
+            <td class="time">{{ item.start }}</td>
+            <td>
+                {% if item.type == 'invited' %}
+                <span class="type">Invited lecture:</span>
+                {% endif %}
+                <a class="title {{ item.type }}" {% if item.abstract %}href="#abstract-{{ forloop.index }}"{% endif %}>{{ item.title }}</a>
+                {% if item.speaker %}
+                <a class="speaker" href="speakers.html#{{ item.speaker }}">
+                ({{ site.data.speakers[item.speaker].name }})
+                </a>
+                {% endif %}
+                {% if item.abstract %}
+                <div class="abstract" id="abstract-{{ forloop.index }}">
+                {{ item.abstract }}
+                </div>
+                {% endif %}
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>

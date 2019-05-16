@@ -1,4 +1,5 @@
-- name: Dana Fisman
+dana:
+  name: Dana Fisman
   affiliation: Ben-Gurion University
   website: https://www.cs.bgu.ac.il/~dana/
   photo: dana.jpg
@@ -8,7 +9,8 @@
     She did her PhD in Weizmann Institute of Science, and worked many years in the industry in IBM Haifa Research Labs, and in Synopsys Inc.
     Dana’s research interests are in the area of formal methods in system design, automata and logic.
     She is mostly known for her work on PSL, the IEEE standard for property specification language, on which she received numerous awards from IEEE, IBM and Synopsys.
-- name: Lise Getoor
+lise:
+  name: Lise Getoor
   affiliation: UC Santa Cruz
   photo: lise.jpg
   website: https://getoor.soe.ucsc.edu/home
@@ -19,7 +21,8 @@
       She is a Fellow of the Association for Artificial Intelligence, has served as an elected board member of the International Machine Learning Society, the board of the Computing Research Association (CRA), and was co-chair for ICML 2011.
       She is the recipient of an NSF Career Award and twelve best paper and best student paper awards.
       She received her PhD from Stanford University in 2001, her MS from UC Berkeley, and her BS from UC Santa Barbara, and was a professor in the Computer Science Department at the University of Maryland, College Park from 2001-2013.
-- name: Nils Jansen
+nils:
+  name: Nils Jansen
   affiliation: Radboud University
   photo: nils.jpg
   website: https://www.cs.ru.nl/personal/nilsjansen/
@@ -30,7 +33,9 @@
     His current research focuses on formal reasoning about safety and explainability in machine learning and robotics.
     At the heart is the development of concepts inspired from formal methods to reason about uncertainty and partial observability.
     To advance the synergy between the fields of AI and formal verification, he organized several events at top class scientific venues, for instance a Dagstuhl seminar on the topic ‘Machine Learning and Model Checking join Forces’.
-- name: Prakash Panangaden
+prakash:
+  name: Prakash Panangaden
+  id: prakash
   affiliation: McGill University
   photo: prakash.jpg
   website: https://www.cs.mcgill.ca/~prakash/

@@ -1,0 +1,105 @@
+- start: '8:50'
+  type: 'organisation'
+  title: 'Opening remarks'
+- start: '8:55'
+  type: 'invited'
+  title: 'Query Learning of Omega Regular Languages'
+  speaker: 'dana'
+  abstract: |
+    Omega languages, i.e. languages of infinite words (or of infinite trees), play an important role in modeling, verification and synthesis of reactive systems.
+    While query learning of regular languages of finite words can be done in polynomial time using a polynomial number of membership and equivalence queries, there is no known polynomial learning algorithm for the full class of omega regular languages.
+    In this talk we will discuss the obstacles in obtaining a polynomial learning algorithm and go through state-of-the art results on learning of regular languages of infinite words and of infinite trees.
+- start: '9:45'
+  type: 'contributed'
+  title: 'Weighted Automata Extraction from Recurrent Neural Networks via Regression on State Spaces'
+  abstract: |
+    We present a method to extract a weighted finite automaton (WFA) from a recurrent neural network (RNN).
+    Our algorithm is based on the WFA learning algorithm by Balle and Mohri, which is in turn an extension of Angluin’s classic L<sup>∗</sup> algorithm.
+    Our technical novelty is in the use of regression methods for the so-called equivalence queries, thus exploiting the internal state space of an RNN.
+    This way we achieve a quantitative extension of the recent work by Weiss, Goldberg and Yahav that extracts DFAs.
+    Experiments demonstrate that our algorithm’s practicality.
+- start: '10:05'
+  title: 'Coffee break'
+  type: 'break'
+- start: '10:40'
+  type: 'invited'
+  title: 'Structured Prediction: The Power of Statistical Relational Learning'
+  speaker: 'lise'
+  abstract: |
+      From information integration to scientific discovery to computational social science, we need machine learning methods that are able to exploit both the inherent uncertainty and the innate structure in a domain.
+      Statistical relational learning (SRL) is a subfield that builds on principles from probability theory and statistics to address uncertainty while incorporating tools from knowledge representation and logic to represent structure.
+      In this talk, I will give a brief introduction to SRL, present templates for common structured prediction problems, and describe modeling approaches that mix logic, probabilistic inference and latent variables.
+      I’ll overview our recent work on probabilistic soft logic (PSL), an SRL framework for large-scale collective, probabilistic reasoning in relational domains.
+      I’ll close by highlighting emerging opportunities (and challenges) in realizing the effectiveness of data and structure for knowledge discovery.
+- start: '11:30'
+  type: 'contributed'
+  title: 'Learning with Partially Ordered Representations'
+  abstract: |
+    This paper examines the characterization and learning of grammars defined with enriched representational models.
+    Model-theoretic approaches to formal language theory have traditionally assumed that each position in a string belongs to exactly one unary relation.
+    We consider unconventional string models where positions can have multiple, shared properties, which are useful in many applications.
+    We show the structures given by these models are partially ordered, and present a learning algorithm which exploits this ordering relation to effectively prune the hypothesis space.
+    We prove this learning algorithm, which takes positive examples as input, finds the most general grammar which covers the data.
+- start: '10:50'
+  type: 'contributed'
+  title: 'Automatic Inference of Minimalist Grammars using an SMT-Solver'
+  abstract: |
+    We introduce (1) a novel parser for Minimalist Grammars (MG), encoded as a system of first-order logic formulae that may be evaluated using an SMT-solver, and (2) a novel procedure for inferring Minimalist Grammars using this parser.
+    The input to this procedure is a sequence of sentences that have been annotated with syntactic relations such as semantic role labels (connecting arguments to predicates) and subject-verb agreement.
+    The output of this procedure is a set of minimalist grammars, each of which is able to parse the sentences in the input sequence such that the parse for a sentence has the same syntactic relations as those specified in the annotation for that sentence.
+    We applied this procedure to a set of sentences annotated with syntactic relations and evaluated the inferred grammars using cost functions inspired by the Minimum Description Length principle and the Subset principle.
+    Inferred grammars that were optimal with respect to certain combinations of these cost functions were found to align with contemporary theories of syntax.
+- start: '12:10'
+  type: 'discussion'
+  title: 'Open discussion'
+- start: '12:30'
+  title: 'Lunch'
+  type: 'break'
+- start: '14:00'
+  type: 'invited'
+  title: 'Planning under Partial Observability: A Betrothal of Formal Verification and Machine Learning'
+  speaker: 'nils'
+  abstract: |
+    The subject of this talk are planning problems where agents operate inside environments that are subject to uncertainties and partial observability.
+    Such problems are naturally modelled by partially observable MDPs (POMDPs). 
+    The goal is to compute a strategy for an agent that is guaranteed to satisfy certain safety or performance specifications. 
+    We discuss several approaches, ranging from a game-based abstraction framework for POMDPs, the computation of finite-memory controllers, and the employment of recurrent neural networks to efficiently synthesize provably correct strategies.
+    Moreover, we consider preliminary work on actively including humans into the synthesis processes, and what challenges arise.
+- start: '14:50'
+  type: 'contributed'
+  title: 'Inferring Optimal Decision Trees'
+  abstract: |
+    Inferring a decision tree from a given dataset is one of the classic problems in machine learning.
+    This problem consists of buildings, from a labelled dataset, a tree such that each node corresponds to a class and a path between the tree root, and a leaf corresponds to a conjunction of features to be satisfied in this class.
+    Following the principle of parsimony, we want to infer a minimal tree consistent with the dataset.
+    Unfortunately, inferring an optimal decision tree is known to be NP-complete for several definitions of optimality.
+    Hence, the majority of existing approaches relies on heuristics, and as for the few exact inference approaches, they do not work on large data sets.
+    In this paper, we propose a novel approach for inferring a decision tree of a minimum depth based on the incremental generation of Boolean formula.
+    The experimental results indicate that it scales sufficiently well and the time it takes to run grows slowly with the size of dataset.
+- start: '15:10'
+  type: 'contributed'
+  title: 'Learning of Procedural Systems: Counterexample Projection and Decomposition'
+  abstract: |
+    Our recently developed active automata learning algorithm for systems of procedural automata (SPAs) splits the inference of a context-free/procedural system into a simultaneous inference of individual DFAs for each of the involved procedures.
+    This paper concretizes two essential features of our algorithm: counterexample projection and counterexample decomposition, which can be considered the technical key for achieving a modular learning algorithm of high efficiency.
+- start: '15:30'
+  type: 'break'
+  title: 'Coffee break'
+- start: '16:00'
+  type: 'contributed'
+  title: 'Improving Model Inference in Industry by Combining Active and Passive Learning'
+  abstract: |
+    Inferring behavioral models (e.g., state machines) of software systems is an important element of re-engineering activities.
+    Model inference techniques can be categorized as active or passive learning, constructing models by (dynamically) interacting with systems or (statically) analyzing traces, respectively.
+    Application of those techniques in the industry is, however, hindered by the trade-off between learning time and completeness achieved (active learning) or by incomplete input logs (passive learning).
+    We investigate the learning time/completeness achieved trade-off of active learning at ASML, provider of lithography systems for the semiconductor industry.
+    To resolve the trade-off we advocate extending active learning with execution logs and passive learning results.
+    We apply the extended approach to eighteen components used in ASML TWINSCAN lithography machines.
+    Compared to traditional active learning, our approach significantly reduces the active learning time.
+    Moreover, it is capable of learning the behavior missed by the traditional active learning approach.
+- start: '16:20'
+  type: 'discussion'
+  title: 'Round table / discussion'
+- start: '17:00'
+  type: 'organisation'
+  title: 'Workshop ends'
