@@ -39,7 +39,7 @@ prakash:
   affiliation: McGill University
   photo: prakash.jpg
   website: https://www.cs.mcgill.ca/~prakash/
-  cancelled: Unfortunately, Prakash had to cancel his lecture.
+ #  cancelled: Unfortunately, Prakash had to cancel his lecture.
   bio: >
     Prakash Panangaden attended the Indian Institute of Technology in Kanpur India where he obtained an MSc in Physics.
     He received an MS in Physics from the University of Chicago and then a PhD in Physics from the University of Wisconsin-Milwaukee on the topic of quantum field theory in curved spacetimes.
