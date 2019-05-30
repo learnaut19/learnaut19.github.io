@@ -55,17 +55,37 @@
 - start: '12:20'
   title: 'Lunch'
   type: 'break'
-- start: '14:00'
+- start: '13:50'
   type: 'invited'
   title: 'Planning under Partial Observability: A Betrothal of Formal Verification and Machine Learning'
   speaker: 'nils'
   abstract: |
     The subject of this talk are planning problems where agents operate inside environments that are subject to uncertainties and partial observability.
-    Such problems are naturally modelled by partially observable MDPs (POMDPs). 
-    The goal is to compute a strategy for an agent that is guaranteed to satisfy certain safety or performance specifications. 
+    Such problems are naturally modelled by partially observable MDPs (POMDPs).
+    The goal is to compute a strategy for an agent that is guaranteed to satisfy certain safety or performance specifications.
     We discuss several approaches, ranging from a game-based abstraction framework for POMDPs, the computation of finite-memory controllers, and the employment of recurrent neural networks to efficiently synthesize provably correct strategies.
     Moreover, we consider preliminary work on actively including humans into the synthesis processes, and what challenges arise.
-- start: '14:50'
+- start: '14:40'
+  type: 'invited'
+  title: 'Approximate Minimization and Metrics for Weighted Finite Automata'
+  speaker: 'prakash'
+  abstract: |
+    Weighted finite automata (WFA) are ordinary automata defined over vector spaces.
+    They have been used in a variety of settings related to natural language processing and machine learning.
+    Probabilistic automata, hidden Markov models, partially observable Markov decision processes are all instances of WFA.
+    As far back as the 1960s Schutzenberger had developed a minimization algorithm for WFA.
+    More recently Alexandra Silva and her group at UCL developed a categorical perspective on automata learning which has allowed them to generalize the Angluin automata learning algorithm to a variety of settings including the case of WFA which had been done earlier by other researchers under various names.
+    Importantly, Silva's work shows a tight connection between automata learning and minimization.
+
+    In recent work with Borja de Balle and Doina Precup, we developed a notion of approximate minimization for WFA.
+    Shortly thereafter, Borja, Pascale Gourdeau and I developed a notion of bisimulation metric between weighted automata.
+    In this survey talk I will quickly review the notion of bisimulation and metrics.
+    I will then specialize to bisimulation for WFA.
+    I will then describe the work on approximate bisimulation and on metrics.
+- start: '15:30'
+  type: 'break'
+  title: 'Coffee break'
+- start: '15:50'
   type: 'contributed'
   title: 'Inferring Optimal Decision Trees'
   speaker: 'Florent Avellaneda'
@@ -77,17 +97,14 @@
     Hence, the majority of existing approaches relies on heuristics, and as for the few exact inference approaches, they do not work on large data sets.
     In this paper, we propose a novel approach for inferring a decision tree of a minimum depth based on the incremental generation of Boolean formula.
     The experimental results indicate that it scales sufficiently well and the time it takes to run grows slowly with the size of dataset.
-- start: '15:15'
+- start: '16:15'
   type: 'contributed'
   title: 'Learning of Procedural Systems: Counterexample Projection and Decomposition'
   speaker: 'Markus Frohme and Bernhard Steffen'
   abstract: |
     Our recently developed active automata learning algorithm for systems of procedural automata (SPAs) splits the inference of a context-free/procedural system into a simultaneous inference of individual DFAs for each of the involved procedures.
     This paper concretizes two essential features of our algorithm: counterexample projection and counterexample decomposition, which can be considered the technical key for achieving a modular learning algorithm of high efficiency.
-- start: '15:40'
-  type: 'break'
-  title: 'Coffee break'
-- start: '16:05'
+- start: '16:40'
   type: 'contributed'
   title: 'Improving Model Inference in Industry by Combining Active and Passive Learning'
   speaker: 'Kousar Aslam, Loek Cleophas, Nan Yang, Ramon Schiffelers, Leonard Lensink, Dennis Hendriks and Alexander Serebrenik'
@@ -100,9 +117,6 @@
     We apply the extended approach to eighteen components used in ASML TWINSCAN lithography machines.
     Compared to traditional active learning, our approach significantly reduces the active learning time.
     Moreover, it is capable of learning the behavior missed by the traditional active learning approach.
-- start: '16:30'
-  type: 'discussion'
-  title: 'Round table / discussion'
-- start: '17:00'
+- start: '17:05'
   type: 'organisation'
   title: 'Workshop ends'
