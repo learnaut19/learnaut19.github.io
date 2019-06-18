@@ -3,13 +3,12 @@ layout: default
 id: programme
 style: true
 ---
+<div class="notice">
+    The workshop will take place on June 23rd in room 2945 (McLean Management Studies Lab) at the <a href=https://www.sfu.ca/mecs/facilities/harbour-centre.html>SFU Harbour Centre</a> in
+Downtown Vancouver.
+</div>
 <table>
     <tbody>
-	    <br>
-	    <br>
-	    The workshop will take place on June 23rd in
-	    room 2945 (McLean Management Studies Lab) at the <a href=https://www.sfu.ca/mecs/facilities/harbour-centre.html>SFU Harbour Centre</a> in
-Downtown Vancouver.
         {% for item in site.data.programme %}
         <tr class="{{ item.type }}">
             <td class="time">{{ item.start }}</td>
