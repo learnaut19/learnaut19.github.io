@@ -107,6 +107,7 @@
   type: 'contributed'
   title: 'Learning of Procedural Systems: Counterexample Projection and Decomposition'
   speaker: 'Markus Frohme and Bernhard Steffen'
+  link: 'https://ls5download.cs.tu-dortmund.de/papers/LearnAut2019.pdf'
   abstract: |
     Our recently developed active automata learning algorithm for systems of procedural automata (SPAs) splits the inference of a context-free/procedural system into a simultaneous inference of individual DFAs for each of the involved procedures.
     This paper concretizes two essential features of our algorithm: counterexample projection and counterexample decomposition, which can be considered the technical key for achieving a modular learning algorithm of high efficiency.
