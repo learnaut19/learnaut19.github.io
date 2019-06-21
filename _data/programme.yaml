@@ -40,6 +40,7 @@
   type: 'contributed'
   title: 'Learning with Partially Ordered Representations'
   speaker: 'Jane Chandlee, Remi Eyraud, Jeffrey Heinz, Adam Jardine and Jonathan Rawski'
+  link: 'https://arxiv.org/abs/1906.07886'
   abstract: |
     This paper examines the characterization and learning of grammars defined with enriched representational models.
     Model-theoretic approaches to formal language theory have traditionally assumed that each position in a string belongs to exactly one unary relation.
