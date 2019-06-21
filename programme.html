@@ -3,13 +3,12 @@ layout: default
 id: programme
 style: true
 ---
+<div class="notice">
+    The workshop will take place on June 23rd in room 2945 (McLean Management Studies Lab) at the <a href=https://www.sfu.ca/mecs/facilities/harbour-centre.html>SFU Harbour Centre</a> in
+Downtown Vancouver.
+</div>
 <table>
     <tbody>
-	    <br>
-	    <br>
-	    The workshop will take place on June 23rd in
-	    room 2945 (McLean Management Studies Lab) at the <a href=https://www.sfu.ca/mecs/facilities/harbour-centre.html>SFU Harbour Centre</a> in
-Downtown Vancouver.
         {% for item in site.data.programme %}
         <tr class="{{ item.type }}">
             <td class="time">{{ item.start }}</td>
@@ -17,7 +16,7 @@ Downtown Vancouver.
                 {% if item.type == 'invited' %}
                 <span class="type">Invited lecture:</span>
                 {% endif %}
-                <a class="title" {% if item.abstract %}href="#abstract-{{ forloop.index }}"{% endif %}>{{ item.title }}</a> {% if item.link %} <a href={{ item.link }}> (link to paper) </a> {% endif %}
+                <a class="title" {% if item.abstract %}href="#abstract-{{ forloop.index }}"{% endif %}>{{ item.title }}</a> {% if item.link %}(<a href={{ item.link }}>link to paper</a>){% endif %}
                 {% if item.type == 'invited' or item.type == 'contributed' %}
                 <div class="speaker">
                 {% if item.type == 'invited' %}
